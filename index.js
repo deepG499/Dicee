@@ -36,4 +36,5 @@ document.querySelector(".reset").addEventListener("click", function(){
     }
     document.querySelector(".dice1").classList.remove("rolled");
     document.querySelector(".dice2").classList.remove("rolled");
+    document.querySelector("h1.win").innerHTML= "The Winner is: <em>???</em>";
     });
