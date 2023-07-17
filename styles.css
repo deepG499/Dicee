@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background-color: grey;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1.win{
+    font-size: 3em; 
+    margin: 50px auto 75px auto;
+}
+
+div.outer-left{
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+div.outer-right{
+    display: inline-block;
+    width: 50%;
+    float: right;
+}
+
+.dice1{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border-radius: 1em;
+    background-color: coral;
+
+}
+
+.dice2{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border-radius: 1em;
+    background-color: coral;
+
+}
+
+.dot{
+    display: inline-block;
+    height: 40px;
+    width: 45px;
+    border-radius: 2em;
+    background-color: white;
+    margin: 5px 11px 5px 15px;
+    float: left;
+
+}
+
+.rolled{
+    background-color: brown;
+}
+
+button{
+    margin: 50px 25px;
+    display: inline-block;
+    width: 100px;
+    height: 33px;
+    font-weight: bolder;
+    border-radius: 1em;
+    background-color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+
